@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header{
+    text-align: center;
+    padding: 0.1rem;
+    color: #fff;
+    background-color: #333;
+}
+
+.addTodo{
+    width: 60% auto;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.addTodo input{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addTodo button{
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addTodo button:hover{
+    background-color: #555;
+} 
+
+li{
+    font-size: 18px;
+    color: #464242;
+    padding: 0.3rem;
+    margin: 1rem 3rem;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completedBtn, .removeBtn{
+    background-color:#4caf50;
+    color : #fff;
+    border : none;
+    padding : 5px 10px;
+    font-size : 14px;
+    margin-left : 5px;
+    cursor : pointer;
+    border-radius : 4px;
+    transition : background-color 0.3s;
+}
+
+.removeBtn{
+    background-color: rgb(214, 45, 45);
+}
+
+.removeBtn:hover{
+    background-color: rgb(99, 10, 10);
+}
