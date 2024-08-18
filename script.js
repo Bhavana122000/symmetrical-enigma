@@ -32,6 +32,7 @@ function getItem(){
    doneBtn.addEventListener("click", function(){
         if(li.style.textDecoration === "line-through"){
             li.style.textDecoration = "none"; 
+            li.style.color = "#464242";
         }else{
             li.style.textDecoration = "line-through"; 
             li.style.color = "#aeb8af";
